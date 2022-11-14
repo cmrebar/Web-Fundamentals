@@ -1,0 +1,43 @@
+.nav {
+    width: 950px;
+    height: 50px;
+    background-color: rgb(66, 66, 66);
+    margin: 0px auto;
+    padding: 5px;
+    padding: bottom 5px;
+    box-sizing: border-box;
+    border:solid black ;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+h1.nav-title {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+ul.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    list-style: none;
+    margin: 5px;
+    
+}
+li {
+    margin: 5px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    color: white;
+    background-color: rgb(16, 212, 212);
+    box-shadow: 2px 2px black;
+}
+
+

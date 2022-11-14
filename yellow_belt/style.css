@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.container {
+    max-width: device-width;
+    height: 663px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+}
+
+.header {
+    height: 200px;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    width: inherit;
+    flex: 1;
+    display: flex;
+}
+
+.brand {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+}
+
+#brand {
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex: 2;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+}
+
+#donate {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border:solid purple 2px;
+    background-color: white;
+    color: purple;
+    border-radius: 50%;
+}
+
+.search {
+    width: inherit;
+    flex: 1;
+    display: flex;
+}
+
+.look {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: right;
+    
+}
+
+.text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    flex: 1;
+    
+
+}
+
+.select {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+#paw {
+    height: 30px;
+    width: 30px;
+}
+
+#pet-type {
+    height: 30px;
+    width: 112px;
+}
+.zip {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+#zip {
+    padding-right: 55px;
+}
+
+.locate {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+#geo {
+    height: 30px;
+    width: 30px;
+}
+
+#location {
+    height: 30px;
+    width: 112px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    
+}
+
+.click {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    
+}
+
+#click {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(90, 6, 90);
+    color: white;
+    font-size: 14pt;
+    box-shadow: 4px 4px black;
+}
+
+.body {
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: solid black 4px;
+}
+
+.entry {
+    width: 800px;
+    height: 125px;
+    display: flex;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+
+.good {
+    width: 128px;
+    height: 105px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    width: inherit;
+    flex: 1;
+}
+
+.description {
+    display: flex;
+    align-items: flex-start;
+    width: inherit;
+    flex: 1;
+}
+
+.pettings {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.pettings-amount {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex: 1;
+}
+
+.pet {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex: 1;
+}
+
+.pet-button {
+    width: 175px;
+    height: 30px;
+    background-color: cyan;
+    color: white;
+    font-size: 14pt;
+    box-shadow: 4px 4px black;
+}

@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.container {
+    width: 1270px;
+    height: 663px;
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 1142px;
+    height: 60px;
+    margin: 0px 50px;
+    padding-left: 20px;
+    background-color: black;
+    align-items: center;
+    justify-content: left;
+}
+
+.header-title {
+    color: white;
+}
+
+.title {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    width: 1270;
+    height: 575px;
+}
+.col-1{
+    flex: 1;
+    height: 575px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid black 2px;
+    height: 300px;
+    padding: 20px 10px;
+    margin-left: 50px;
+}
+.profile-pic {
+    width: 100px;
+    height: 100px;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+    height: 575px;
+    margin-left: 20px;
+    margin-right: 53px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    border: solid black 2px;
+}
+
+.row {
+    width: inherit;
+    display: flex;
+    height: 75px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 3;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 7;
+}
+
+.likes-number {
+    margin-left: 300px;
+}
+
+.button {
+    background-color: gold;
+    width: 70px;
+    height: 30px;
+    box-shadow: 3px 3px black;
+}
+
+.filler {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 30px;
+}

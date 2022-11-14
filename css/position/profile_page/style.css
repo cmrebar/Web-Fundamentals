@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    width: auto;
+    height: 50px;
+    background-color: black;
+    display: flex;
+}
+.nav {
+    width: 600px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive; 
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    top: 8px;
+    left: 190px;
+    right: auto;
+    justify-content: space-between;
+}
+.profile {
+    font-size: 16pt;
+    color: white;
+    text-decoration: none;
+
+}
+a.link {
+    text-decoration: inherit;
+    color: inherit;
+}
+.logout {
+    width: 80px;
+    height: 25px;
+    position: relative;
+    top: 12px;
+    left: 600px;
+    display: flex;
+    align-items: center;
+
+}
+#logout {
+    background-color: rgb(11, 196, 196);
+    color: white;
+    width: 80px;
+    height: 25px;
+    padding: 0px 10px;
+}
+.main {
+    width: auto;
+    height: 1000px;
+    border: solid red 5px;
+    background-color: white;
+    display: flex;
+    padding: 0px 150px;
+}
+.col-1 {
+    width: 600px;
+    height: 700px;
+    padding-left: 30px;
+}
+#main {
+    width: 600px;
+    height: 450px;
+    border: solid gray 3px;
+}
+#main-head {
+    width: inherit;
+    height: 125px;
+    background-color: rgb(34, 158, 189);
+    display: flex;
+}
+img.profile-pic {
+    border: solid grey 2px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+h1#name {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+h2#location {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: relative;
+    top: 40px;
+    left: 85px;
+}
+img.map-marker {
+    width: 15px;
+    height: 20px;
+    position: relative;
+    top: 12px;
+    left: 52px;
+}
+h3.skills {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+img.gear {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+a.settings {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+.requests {
+    width: 275px;
+    height: 200px;
+    border: solid gray 3px;
+    
+}
+#requests-head {
+    width: inherit;
+    height: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+h2#requests-amount {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: grey;
+    border-radius: 50%;
+    position: relative;
+    left: 5px;
+    
+}
+h3#requests {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-left: 15px;
+}
+/* #requests-body {
+    display: flex;
+} */
+img#todd {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+h3#todd {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: relative;
+    bottom: 28px;
+    left: 75px;
+}
+
+img#accept-todd {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 65px;
+    left: 200px;
+}
+img#close-todd {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 65px;
+    left: 200px;
+}
+img#phil {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 0px;    
+    right: 58px;
+}
+h3#phil {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: relative;
+    bottom: 38px;
+    left: 75px;
+}
+img#accept-phil {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 65px;
+    left: 200px;
+}
+img#close-phil {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 65px;
+    left: 200px;
+}
+.education {
+    width: 600px;
+    height: 400px;
+    border: solid gray 3px;
+    position: absolute;
+    top: 550px;
+}
+#education-head {
+    width: inherit;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#education-body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+h3#education {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-left: 30px;
+}
+h2#education-place {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+h3#education-date {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    color: rgb(133, 132, 132);
+}
+h3#education-content {
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.connections {
+    width: 275px;
+    height: 350px;
+    border: solid gray 3px;
+    position: absolute;
+    top: 300px;
+}
+#connections-head {
+    width: inherit;
+    height: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+h2#connections-amount {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: grey;
+    border-radius: 50%;
+    position: relative;
+    left: 5px;
+}
+h3#connections {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-left: 15px;
+}
+img#adrien {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;    
+    left: 10px;
+}
+img#anne {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;    
+    left: 10px;
+}
+img#alayne {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;    
+    left: 10px;
+}
+img#arry {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;    
+    left: 10px;
+}
+
+
+
+
+
+
